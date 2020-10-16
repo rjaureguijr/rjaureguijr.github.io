@@ -2,8 +2,9 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('RJ name should be in app', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+ 
+  const nameElement = getByText(/Rudy Jauregui/i);
+  expect(nameElement).toBeInTheDocument();
 });
