@@ -11,7 +11,7 @@ export class Contact extends React.Component {
                 <h5>Contact me:</h5> 
                 <p><a href="https://www.linkedin.com/in/rudyjauregui/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
                 
-                <p><a href="https://www.twitter.com/rjaureguijr">Twitter</a></p>
+                <p><a href="https://www.twitter.com/rjaureguijr" target="_blank" rel="noopener noreferrer">Twitter</a></p>
 
                 <p><a href="mailto:rjaureguijr@gmail.com">Email</a></p>
                </div>

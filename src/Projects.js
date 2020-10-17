@@ -12,13 +12,13 @@ class Projects extends React.Component {
                             </li>
                         </ul>
                     </li>
-                    <li><a href="/jam-on-it" className="nav-link">Jam On It!</a>
+                    <li><a href="/jam-on-it" className="nav-link" target="_blank">Jam On It!</a>
                     <ul>
                         <li>Project using the Spotify API. This lets users search for music matching any term. The user can then add to a custom playlist and save to listen later.
                         </li>
                     </ul>                   
                     </li>
-                    <li className="invisible"><a href="/coffee-time" className="nav-link">Coffee Time</a></li>
+                    <li><a href="/coffee-time" className="nav-link" target="_blank">Coffee Time</a></li>
                 </ul>
             </div>
         );
